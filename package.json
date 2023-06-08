@@ -1,0 +1,24 @@
+{
+  "name": "rs-manager",
+  "version": "1.0.0",
+  "description": "restorent management server with sql database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somoneFromHell/rs_manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somoneFromHell/rs_manager/issues"
+  },
+  "homepage": "https://github.com/somoneFromHell/rs_manager#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
