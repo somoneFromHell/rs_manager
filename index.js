@@ -11,7 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 
 app.use("/api/menu",menuRout)
-
+app.all('*',(req,res,next)=>{
+    res.status(404).json({status:'fail',message:`there is no thing at ${req.originalUrl}`})
+})
 
 
 
